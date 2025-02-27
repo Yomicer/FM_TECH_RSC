@@ -1,0 +1,59 @@
+FMTECH_FM_FUTION_REACTOR:
+  item_group: fm_auto_machine
+  item:
+    name: "&6浮木聚变堆"
+    material: LODESTONE
+    glow: true
+    lore:
+      - " "
+      - "&6你发现浮木和零分卷子靠近时散发大量热量"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE_PLUS
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR 
+      amount: 1
+    8:
+      material: LODESTONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR 
+      amount: 1
+  capacity: 10000
+  production: 50
+  input: [0,1,2]
+  output: [4,5,6,7,8]
+  fuels:
+    example_fuel:
+      item:
+        material: OAK_WOOD
+      seconds: 10
+      output:
+        material: CHARCOAL

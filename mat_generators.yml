@@ -1,0 +1,51 @@
+
+FMTECH_FM_COLLECTER:
+  item_group: fm_auto_machine
+  item:
+    name: "&6浮木收集器"
+    material: CHISELED_NETHER_BRICKS
+    glow: true
+    lore:
+      - " "
+      - "&6浮木好处都有啥~谁说对了就给他~"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: PITCHER_POD
+      amount: 1
+    2:
+      material: FISHING_ROD
+      amount: 1
+    3:
+      material: PITCHER_POD
+      amount: 1
+    4:
+      material: BUCKET
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE_PLUS
+    6:
+      material: BUCKET
+      amount: 1
+    7:
+      material: STRING
+      amount: 1
+    8:
+      material: STRING
+      amount: 1
+    9:
+      material: STRING
+      amount: 1
+  capacity: 1000
+  output: [0,1,2,4,5,6,7,8]
+  outputs:
+    1:
+          material_type: slimefun
+          material: FMTECH_FUMU
+          amount: 1
+  tickRate: 60
+  status: 3
+  per: 1314

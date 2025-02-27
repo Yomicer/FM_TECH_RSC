@@ -1,0 +1,356 @@
+FM_CUTTING_MACHINE:
+  item_group: fm_auto_machine
+  item:
+    name: "&e锯木机"
+    material: STONECUTTER
+    glow: true
+    lore:
+      - " "
+      - "&6你问我问什么不用切石机?"
+      - "&6那可是切石机啊!!!"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: redstone
+      amount: 1
+    2:
+      material: BLAST_FURNACE
+      amount: 1
+    3:
+      material: redstone
+      amount: 1
+    4:
+      material: IRON_INGOT
+      amount: 1
+    6:
+      material: IRON_INGOT
+      amount: 1
+    7:
+      material: IRON_BLOCK
+      amount: 1
+    8:
+      material: STONECUTTER
+      amount: 1
+    9:
+      material: IRON_BLOCK
+      amount: 1
+  capacity: 1314
+  input: [0,1,2]
+  output: [4,5,6,7,8]
+  energyPerCraft: 520
+  speed: 1
+  recipes:
+    "古尔木板和古尔":
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: FMTECH_GUER_PLANKS
+          amount: 8
+        2:
+          material_type: slimefun
+          material: FMTECH_GUER
+          amount: 1
+    "木琴板":
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: FMTECH_FUMU
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: FMTECH_FUMU_POWDER
+          amount: 1
+
+
+
+FM_PRESS:
+  item_group: fm_auto_machine
+  item:
+    name: "&a压缩机"
+    material: PISTON
+    glow: true
+    lore:
+      - " "
+      - "&6«关于加压机器总是用于制作解压视频这件事»"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: BLAST_FURNACE
+      amount: 1
+    2:
+      material: PISTON
+      amount: 1
+    3:
+      material: BLAST_FURNACE
+      amount: 1
+    4:
+      material: IRON_INGOT
+      amount: 1
+    6:
+      material: IRON_INGOT
+      amount: 1
+    7:
+      material: IRON_INGOT
+      amount: 1
+    8:
+      material: IRON_INGOT
+      amount: 1
+    9:
+      material: IRON_INGOT
+      amount: 1
+  capacity: 1314
+  input: [0,1,2]
+  output: [4,5,6,7,8]
+  energyPerCraft: 520
+  speed: 1
+  recipes:
+    "浮青板":
+      seconds: 4
+      input:
+        1:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        2:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        3:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        4:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        5:
+          material_type: slimefun
+          material: FMTECH_FU
+          amount: 1
+        6:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        7:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        8:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+        9:
+          material_type: slimefun
+          material: FMTECH_GUER_WOOD
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: FMTECH_FU_PLANKS
+          amount: 1
+  "木琴板":
+    seconds: 4
+    input:
+      1:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      2:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      3:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      4:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      5:
+        material_type: slimefun
+        material: FMTECH_MU
+        amount: 1
+      6:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      7:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      8:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+      9:
+        material_type: slimefun
+        material: FMTECH_GUER_WOOD
+        amount: 1
+    output:
+      1:
+        material_type: slimefun
+        material: FMTECH_MU_PLANKS
+        amount: 1
+
+
+FM_PISTON_WORKBENCH: 
+  item_group: fm_auto_machine
+  item:
+    name: "&e炼丹炉"
+    material: CAULDRON
+    glow: true
+    lore:
+      - " "
+      - "&6上面贴着一张使用说明:"
+      - "&6放入材料即可"
+      - "&4禁忌:&b不要放进去猴子!!!"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: IRON_BLOCK
+      amount: 1
+    2:
+      material: IRON_TRAPDOOR
+      amount: 1
+    3:
+      material: IRON_BLOCK
+      amount: 1
+    4:
+      material: CAULDRON
+      amount: 1
+    6:
+      material: CAULDRON
+      amount: 1
+    7:
+      material: NETHER_BRICKS
+      amount: 1
+    8:
+      material: CAULDRON
+      amount: 1
+    9:
+      material: NETHER_BRICKS
+      amount: 1
+  capacity: 1314
+  input: [0,1,2]
+  output: [4,5,6,7,8]
+  energyPerCraft: 520
+  speed: 1
+  recipes:
+    "漂浮药水":
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: MAGIC_LUMP_1
+          amount: 1
+        2:
+          material: NETHER_WART
+          amount: 1
+        3:
+          material_type: slimefun
+          material: MAGIC_LUMP_1
+          amount: 1
+        4:
+          material: PHANTOM_MEMBRANE
+          amount: 1
+        5:
+          material: POTION
+          amount: 1
+        6:
+          material: PHANTOM_MEMBRANE
+          amount: 1
+        7:
+          material: FIREWORK_ROCKET
+          amount: 1
+        8:
+          material: BLAZE_POWDER
+          amount: 1
+        9:
+          material: FIREWORK_ROCKET
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: FMTECH_LEVITATION_POTION
+          amount: 1
+
+
+FMTECH_SEPARATOR:
+  item_group: fm_auto_machine
+  item:
+    name: "&3浮木离心机"
+    material: CHISELED_QUARTZ_BLOCK
+    glow: true
+    lore:
+      - " "
+      - "&3通过高频红石控制让指针转飞↑起来~"
+      - "&3[神鹰音]"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: CHISELED_QUARTZ_BLOCK
+      amount: 1
+    2:
+      material: COMPASS
+      amount: 1
+    3:
+      material: CHISELED_QUARTZ_BLOCK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    7:
+      material: OBSERVER
+      amount: 1
+    8:
+      material: LODESTONE
+      amount: 1
+    9:
+      material: OBSERVER
+      amount: 1
+  capacity: 1314
+  input: [0,1,2]
+  output: [4,5,6,7,8]
+  energyPerCraft: 520
+  speed: 1
+  recipes:
+    "浮木离心机":
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: FMTECH_FUMU_POWDER
+          amount: 1
+          output:
+      output:
+        1:
+          material_type: slimefun
+          material: FMTECH_FU
+          amount: 1
+        2:
+          material_type: slimefun
+          material: FMTECH_MU
+          amount: 1

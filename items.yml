@@ -1,0 +1,930 @@
+FM_AUTHOR:
+  item_group: fm_author
+  placeable: true
+  item:
+    name: "{#FFC1E0}&lmagicsolo"
+    material_type: skull_base64
+    material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
+    lore:
+      - "{#FFC1E0}Author of FM_TECH---magicsolo"
+      - "{#FFC1E0}主笔"
+  recipe_type: NULL
+
+FM_AUTHOR_2:
+  item_group: fm_author
+  placeable: true
+  item:
+    name: "{#FFC1E0}&lSShaner"
+    material: player_head
+    lore:
+      - "{#FFC1E0}Author of FM_TECH---SShaner"
+      - "{#FFC1E0}协作"
+  recipe_type: NULL
+
+
+FMTECH_FUMU:
+  item_group: fm_resource
+  item:
+    name: "&6浮木"
+    material: PITCHER_POD
+    glow: false
+    lore:
+      - " "
+      - "&6木头浮起来不很正常吗"
+      - "&1无法破坏"
+      - " "
+      - "也可以通过钓鱼获取"
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe: 
+    1:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_LEVITATION_POTION
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+
+FMTECH_FUMU_POWDER:
+  item_group: fm_resource
+  item:
+    name: "&6浮木屑"
+    material: BROWN_DYE
+    lore:
+    - " "
+    - "[&6玩家:我问你这屑保真吗?]"
+    - "[&6机器:你**故意找茬是不是]"
+    - "&1无法破坏"
+    - " "
+  recipe_type: FM_CUTTING_MACHINE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_FUMU
+      amount: 1
+FMTECH_FU:
+  item_group: fm_resource
+  item:
+    name: "&3浮青"
+    material: CYAN_DYE
+    glow: false
+    lore:
+      - " "
+      - "&3神金青金石,可以在水上浮起来..."
+      - "&1无法破坏"
+      - " "
+  recipe_type: FM_FISHING
+  recipe: {}
+FMTECH_MU:
+  item_group: fm_resource
+  item:
+    name: "&4木秦"
+    material: RED_DYE
+    glow: false
+    lore:
+      - " "
+      - "&4红石也能浮起来?那我问你"
+      - "&1无法破坏"
+      - " "
+  recipe_type: FM_FISHING
+  recipe: {}
+FMTECH_MU_PLANKS:
+  item_group: fm_resource
+  item:
+    name: "&4木青板"
+    material: RED_NETHER_BRICKS
+    glow: false
+    lore:
+      - " "
+      - "&4板板正正的"
+      - "&1无法破坏"
+      - " "
+  recipe_type: FM_PRESS
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_MU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+FMTECH_FU_PLANKS:
+  item_group: fm_resource
+  item:
+    name: "&3浮青板"
+    material: WARPED_PLANKS
+    glow: false
+    lore:
+      - " "
+      - "&3正正板板的"
+      - "&1无法破坏"
+      - " "
+  recipe_type: FM_PRESS
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_FU
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_GUER_PLANKS
+      amount: 1
+FMTECH_STRUCTURE:
+  item_group: fm_resource
+  item:
+    name: "&6浮木框架"
+    material: MANGROVE_ROOTS
+    glow: false
+    lore:
+      - " "
+      - "&6浮木的框架,条条框框都是为了你好"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_FUMU_POWDER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+FMTECH_STRUCTURE_PLUS:
+  item_group: fm_resource
+  item:
+    name: "&6&b加强浮木框架"
+    material: STRUCTURE_BLOCK
+    glow: true
+    lore:
+      - " "
+      - "&6前面的机器以后再来探索吧"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: NETHER_STAR
+      amount: 1
+    2:
+      material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+      amount: 1
+    3:
+      material: NETHER_STAR
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    7:
+      material: NETHER_STAR
+      amount: 1
+    8:
+      material: NETHERITE_BLOCK
+      amount: 1
+    9:
+      material: NETHER_STAR
+      amount: 1
+
+FMTECH_GUER_WOOD:
+  item_group: fm_resource
+  item:
+    name: "&f古尔木"
+    material: STRIPPED_BIRCH_WOOD
+    glow: true
+    lore:
+      - " "
+      - "&f古老且易碎的木头,要着重保护"
+      - "&1&m无法破坏"
+      - " "
+  recipe_type: FM_PRESS
+  recipe:
+    1:
+      material: DARK_OAK_WOOD
+      amount: 1
+    2:
+      material: SPRUCE_WOOD
+      amount: 1
+    3:
+      material: MANGROVE_WOOD
+      amount: 1
+    4:
+      material: BIRCH_WOOD
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_FUMU
+      amount: 1
+    6:
+      material: OAK_WOOD
+      amount: 1
+    7:
+      material: CHERRY_WOOD
+      amount: 1
+    8:
+      material: JUNGLE_WOOD
+      amount: 1
+    9:
+      material: ACACIA_WOOD
+      amount: 1
+FMTECH_GUER_PLANKS:
+  item_group: fm_resource
+  item:
+    name: "&f古尔木板"
+    material: BIRCH_PLANKS
+    glow: true
+    lore:
+      - " "
+      - "&f一块未成材的树木残片,要好好爱惜"
+      - "&1&m无法破坏"
+      - " "
+  recipe_type: FM_CUTTING_MACHINE
+  recipe:
+    5:
+      material_type: slimefun
+      material: FMTECH_GUER_WOOD
+      amount: 1
+FMTECH_GUER:
+  item_group: fm_resource
+  item:
+    name: "&f古尔"
+    material: SNOWBALL
+    glow: true
+    lore:
+      - " "
+      - "&f圆的...白色..."
+      - "&f......"
+      - "&f......"
+      - "&f......"
+      - "&f○↑神↓~启动！！！"
+      - "&1&m无法破坏"
+      - " "
+  recipe_type: FM_CUTTING_MACHINE
+  recipe:
+    5:
+      material_type: slimefun
+      material: FMTECH_GUER_WOOD
+      amount: 1
+FMTECH_EXPERIENCE_ORB:
+  item_group: fm_resource
+  item:
+    name: "&2&b浓缩经验"
+    material: ENDER_PEARL
+    glow: true
+    lore:
+      - " "
+      - "&a一把抓住,顷刻炼化"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: ROTTEN_FLESH
+      amount: 1
+    2:
+      material: GUNPOWDER
+      amount: 1
+    3:
+      material: SPIDER_EYE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_FUMU
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_GUER
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_FUMU
+      amount: 1
+    7:
+      material: BONE
+      amount: 1
+    8:
+      material: STRING
+      amount: 1
+    9:
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+FMTECH_SHENJIN_TOTEM:
+  item_group: fm_resource
+  item:
+    name: "&e神金图腾"
+    material: TOTEM_OF_UNDYING
+    glow: false
+    lore:
+      - " "
+      - "&e神奇的,用金做的图腾"
+      - "&e这可是神金!!!"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: EMERALD
+      amount: 1
+    2:
+      material: GOLD_INGOT
+      amount: 1
+    3:
+      material: EMERALD
+      amount: 1
+    4:
+      material: GOLD_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_GUER
+      amount: 1
+    6:
+      material: GOLD_BLOCK
+      amount: 1
+    8:
+      material: GOLD_BLOCK
+      amount: 1
+FMTECH_SHENJIN_TOTEM_PLUS:
+  item_group: fm_resource
+  item:
+    name: "&e崇高道德的赞许"
+    material: TOTEM_OF_UNDYING
+    glow: true
+    lore:
+      - " "
+      - "&e在这丰富多彩包罗万象的宇宙之中,道德化作实体,向你竖起大拇指也不是什么稀罕的事情"
+      - "&e重要的是你获得了赞许!"
+      - "&3&mwc,星铁!!!"
+      - "&1&m无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material: IRON_INGOT
+      amount: 1
+    2:
+      material: NETHER_STAR
+      amount: 1
+    3:
+      material: IRON_INGOT
+      amount: 1
+    4:
+      material: IRON_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_SHENJIN_TOTEM
+      amount: 1
+    6:
+      material: IRON_INGOT
+      amount: 1
+    7:
+      material: IRON_INGOT
+      amount: 1
+    8:
+      material: IRON_INGOT
+      amount: 1
+    9:
+      material: IRON_INGOT
+      amount: 1
+FMTECH_FU_GEAR:
+  item_group: fm_resource
+  item:
+    name: "&3浮青齿轮"
+    material: MUSIC_DISC_WAIT
+    glow: false
+    lore:
+      - " "
+      - "&3正正板板的齿轮"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    5:
+      material: STICK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_FU_PLANKS
+      amount: 1
+FMTECH_MU_GEAR:
+  item_group: fm_resource
+  item:
+    name: "&4木琴齿轮"
+    material: MUSIC_DISC_CHIRP
+    glow: false
+    lore:
+      - " "
+      - "&4板板正正的齿轮"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    5:
+      material: STICK
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_MU_PLANKS
+      amount: 1
+FMTECH_FUMU_GEAR:
+  item_group: fm_resource
+  item:
+    name: "&6浮木齿轮"
+    material: MUSIC_DISC_MALL
+    glow: false
+    lore:
+      - " "
+      - "&4板板正正的齿轮"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: FMTECH_MU_GEAR
+      amount: 1
+    5:
+      material: SLIME_BALL
+      amount: 1
+    8:
+      material_type: slimefun
+      material: FMTECH_FU_GEAR
+      amount: 1
+FMTECH_TROT:
+  item_group: fm_resource
+  item:
+    name: "&5贿赂老师得到的答案"
+    material: PAPER
+    glow: true
+    lore:
+      - " "
+      - "&5你也不想在学校一点没学的事情被家长知道吧"
+      - "&6珍贵无比"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: DIAMOND
+      amount: 1
+    4:
+      material: NETHERITE_INGOT
+      amount: 1
+    5:
+      material: PAPER
+      amount: 1
+    6:
+      material: EMERALD
+      amount: 1
+    8:
+      material: GOLD_INGOT
+      amount: 1
+FMTECH_TEST:
+  item_group: fm_resource
+  item:
+    name: "&4考试卷子"
+    material: WRITABLE_BOOK
+    glow: false
+    lore:
+      - " "
+      - "&4ber,哥们,没墨我怎么写"
+      - "&6&m珍贵无比"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material: FEATHER
+      amount: 1
+    4:
+      material: BOOK
+      amount: 1
+FMTECH_FULL_TEST:
+  item_group: fm_resource
+  item:
+    name: "&2满昏试卷!!!"
+    material: KNOWLEDGE_BOOK
+    glow: true
+    lore:
+      - " "
+      - "&2经过你不屑[没打错]的&m努力,&2终于得到了满分"
+      - "&6&b珍贵无比"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    4:
+      material_type: slimefun
+      material: FMTECH_TROT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_TEST
+      amount: 1
+    6:
+      material: REDSTONE
+      amount: 1
+FMTECH_EMPTY_TEST:
+  item_group: fm_resource
+  item:
+    name: "&4零昏试卷!!!"
+    material: ENCHANTED_BOOK
+    glow: true
+    lore:
+      - " "
+      - "&4古人云:一分耕耘,一分收获!!!"
+      - "&4所以你决定回家种地..."
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    4:
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_TEST
+      amount: 1
+    6:
+      material: REDSTONE
+      amount: 1
+FMTECH_LEVITATION_POTION:
+  item_group: fm_resource
+  item:
+    name: "&5漂浮药水"
+    material: DRAGON_BREATH
+    glow: true
+    lore:
+      - " "
+      - "&5已经三天没挨打了!!!"
+      - " "
+  recipe_type: FM_PISTON_WORKBENCH
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    2:
+      material: NETHER_WART
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGIC_LUMP_1
+      amount: 1
+    4:
+      material: PHANTOM_MEMBRANE
+      amount: 1
+    5:
+      material: POTION
+      amount: 1
+    6:
+      material: PHANTOM_MEMBRANE
+      amount: 1
+    7:
+      material: FIREWORK_ROCKET
+      amount: 1
+    8:
+      material: BLAZE_POWDER
+      amount: 1
+    9:
+      material: FIREWORK_ROCKET
+      amount: 1
+
+FMTECH_GUER_INGOT:
+  item_group: fm_resource
+  item:
+    name: "&f古尔锭"
+    material: IRON_INGOT
+    glow: true
+    lore:
+      - " "
+      - "&f略微加工后古尔"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun 
+      material: FMTECH_GUER
+      amount: 1
+    2:
+      material: IRON_INGOT
+      amount: 1
+    3:
+      material_type: slimefun 
+      material: FMTECH_GUER
+      amount: 1
+    4:
+      material: IRON_INGOT
+      amount: 1
+    5:
+      material: DIAMOND
+      amount: 1
+    6:
+      material: IRON_INGOT
+      amount: 1
+    7:
+      material_type: slimefun 
+      material: FMTECH_GUER
+      amount: 1
+    8:
+      material: IRON_INGOT
+      amount: 1
+    9:
+      material: IRON_INGOT
+      amount: 1
+FMTECH_FUTION_REACTOR:
+  item_group: fm_auto_machine
+  item:
+    name: "&6浮木聚变堆"
+    material: LODESTONE
+    glow: true
+    lore:
+      - " "
+      - "&6你发现浮木和零分卷子靠近时散发大量热量"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE_PLUS
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FMTECH_GUER_INGOT 
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR 
+      amount: 1
+    8:
+      material: LODESTONE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR 
+      amount: 1
+
+FMTECH_FM_FISSION_REACTOR:
+  item_group: fm_auto_machine
+  item:
+    name: "&4&b浮木二极裂变堆"
+    material: chiseled_POLISHED_BLACKSTONE
+    glow: true
+    lore:
+      - " "
+      - "处理物待定"
+      - "&4看到零昏卷子和别人家的满分卷子,浮木裂开了"
+      - "&1无法破坏"
+      - " "
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FMTECH_STRUCTURE_PLUS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FMTECH_FUMU_GEAR
+      amount: 1
+    4:
+      material: NETHERITE_BLOCK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: FMTECH_FUTION_REACTOR
+      amount: 1
+    6:
+      material: NETHERITE_BLOCK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR 
+      amount: 1
+    8:
+      material: NETHERITE_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FMTECH_SEPARATOR
+      amount: 1
+
+# FMTECH_LOG:
+#   item_group: fm_resource
+#   item:
+#     name: "&4&b错误材料"
+#     material: chiseled_POLISHED_BLACKSTONE
+#     glow: true
+#     lore:
+#       - " "
+#       - "&b错误材料-描述待定"
+#       - "&1无法破坏"
+#       - " "
+#   recipe_type: ENHANCED_CRAFTING_TABLE
+#   recipe: 
+#     1:
+#       material: OAK_PLANKS
+#       amount: 1
+#     2:
+#       material: SPRUCE_PLANKS
+#       amount: 1
+#     3:
+#       material: BIRCH_PLANKS
+#       amount: 1
+#     4:
+#       material: JUNGLE_PLANKS
+#       amount: 1
+#     5:
+#       material_type: slimefun
+#       material: FMTECH_FUMU
+#       amount: 1
+#     6:
+#       material: ACACIA_PLANKS
+#       amount: 1
+#     7:
+#       material: DARK_OAK_PLANKS 
+#       amount: 1
+#     8:
+#       material: MANGROVE_PLANKS
+#       amount: 1
+#     9:
+#       material: CHERRY_PLANKS
+#       amount: 1
+
+# FMTECH_WOOD:
+#   item_group: fm_resource
+#   item:
+#     name: "&4&b错误材料"
+#     material: chiseled_POLISHED_BLACKSTONE
+#     glow: true
+#     lore:
+#       - " "
+#       - "&b错误材料-描述待定"
+#       - "&1无法破坏"
+#       - " "
+#   recipe_type: FM_CUTTING_MACHINE
+#   recipe:
+#     1: 
+#       material_type: slimefun
+#       material: FMTECH_LOG
+#       amount: 1

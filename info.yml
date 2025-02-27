@@ -1,0 +1,8 @@
+id: fm_tech
+name: "浮木科技"
+depends: []
+pluginDepends: []
+version: "Release-0.0.1"
+description: "提供更多前期辅助"
+authors: magicsolo
+repo: "Yomicer/FM_TECH_RSC"

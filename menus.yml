@@ -1,0 +1,52 @@
+
+
+#发电机
+FMTECH_FM_FUTION_REACTOR:
+  title: "&6浮木聚变堆"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+
+FMTECH_FM_COLLECTER: 
+  title: "统一格式"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+
+
+FM_CUTTING_MACHINE: 
+  title: "统一格式"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+
+FM_PRESS: 
+  title: "统一格式"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+
+FM_PISTON_WORKBENCH: 
+  title: "统一格式"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+
+FMTECH_SEPARATOR: 
+  title: "统一格式"
+  slots:
+    3:
+      name: "&a信息"
+      progressbar: true
+      material: GREEN_STAINED_GLASS_PANE
+

@@ -1,0 +1,15 @@
+FM_CUTTING_MACHINE: 
+  material: STONECUTTER
+  name: "&c锯木机"
+
+FM_FISHING: 
+  material: FISHING_ROD
+  name: "&e垂钓"
+
+FM_PRESS: 
+  material: PISTON
+  name: "&a压缩机"
+
+FM_PISTON_WORKBENCH: 
+  material: CAULDRON
+  name: "&e炼丹炉"
